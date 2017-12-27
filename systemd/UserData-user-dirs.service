@@ -1,0 +1,10 @@
+[Unit]
+Description=Bind home dirs to dirs in the SD card
+Requires=media-amnesia-UserData.mount
+After=media-amnesia-UserData.mount
+
+[Service]
+ExecStart=/lib/live/mount/persistence/TailsData_unlocked/bin/user-data-setup.sh
+
+[Install]
+WantedBy=media-amnesia-UserData.mount 
