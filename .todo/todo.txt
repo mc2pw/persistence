@@ -1,0 +1,5 @@
+Add README file
+Create setup script
+Different setup scripts for different features, hidden service, yarn, etc.
+Create default keepassx2.ini in dotfiles
+Create default dconf/user in dotfiles
